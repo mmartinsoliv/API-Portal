@@ -1,0 +1,35 @@
+{
+  "name": "API_Rest_Portal",
+  "version": "1.0.0",
+  "description": "API Rest do Portal",
+  "main": "index.js",
+  "author": "Matheus Martins",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --files --transpile-only src/server.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.9",
+    "@types/jsonwebtoken": "^8.5.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^9.0.0",
+    "typeorm": "^0.2.29",
+    "typescript": "^4.1.2",
+    "yup": "^0.30.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/bcryptjs": "^2.4.2",
+    "bcrypt": "^5.0.0",
+    "ts-node-dev": "^1.0.0"
+  }
+}
