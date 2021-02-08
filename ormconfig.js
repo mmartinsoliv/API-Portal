@@ -8,6 +8,7 @@ module.exports = {
     "migrations": [
        "./dist/database/migrations/*.js"
     ],
+    "name": "default",
     "ssl": true,
     "extra": {
     "ssl": {
