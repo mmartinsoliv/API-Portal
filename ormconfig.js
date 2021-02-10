@@ -1,4 +1,3 @@
-console.log('process.env.DATABASE_URL = ', process.env.DATABASE_URL)
 module.exports = {
     "url": process.env.DATABASE_URL,
     "type": "postgres",
@@ -18,4 +17,4 @@ module.exports = {
     "cli": {
         "migrationsDir": "./src/database/migrations"
     }
- }
+}

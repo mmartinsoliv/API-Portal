@@ -21,7 +21,7 @@ export default function authMiddleware(req: Request, res: Response, next: NextFu
      const data  = jwt.verify(token, 'secret')
      console.log(data)
 
-     const {id} = data as TokenPayLoad
+     const { id } = data as TokenPayLoad
 
      req.userId = id 
 
