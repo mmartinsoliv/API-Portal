@@ -8,7 +8,7 @@ import authMiddleware from './middlewares/auth'
 
 const router = Router()
 
-router.get('/', authMiddleware ,(req, res) => {
+router.get('/', (req, res) => {
     return res.json({message: 'Hello heroku'})
 })
 
