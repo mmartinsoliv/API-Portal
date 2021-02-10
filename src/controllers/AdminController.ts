@@ -33,10 +33,6 @@ class UserController {
             return res.status(404).json({message: 'Not found users'})
         }
 
-        users.map(user => (
-            delete user.password
-        ))
-
         return res.status(200).json(users)
     }
 }
